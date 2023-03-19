@@ -1,4 +1,4 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
 #include <assert.h>
@@ -55,36 +55,36 @@
 //	return 0;
 //}
 
-//char* my_strcpy(char dest[], const char src[]) //char* 返回目标空间的起始地址，从而可以实现链式访问
-//{
-//	//assert(src != NULL);
-//	//assert(dest != NULL);
-//	assert(src && dest);
-//	char* ret = dest;
-//	//while (*src != '\0')
-//	//{
-//	//	*dest = *src;
-//	//	dest++;
-//	//	src++;
-//	//}
-//	//*dest = *src;
-//
-//	while (*dest++ = *src++) //* -> = -> ++（'='的运算结果是当前赋值过去的值，比如将'h'赋值过去的时候，结果是'h'的ASIIC码值）
-//	{
-//		;
-//	}
-//
-//	return ret;
-//}
-//
-//int main()
-//{
-//	char dest[20] = { 0 };
-//	char src[] = "abcdef";
-//	//my_strcpy(dest, src);
-//	printf("%s\n", my_strcpy(dest,src)); //如果返回是void则不能链式访问
-//	return 0;
-//}
+char* my_strcpy(char dest[], const char src[]) //char* 返回目标空间的起始地址，从而可以实现链式访问
+{
+	//assert(src != NULL);
+	//assert(dest != NULL);
+	assert(src && dest);
+	char* ret = dest;
+	//while (*src != '\0')
+	//{
+	//	*dest = *src;
+	//	dest++;
+	//	src++;
+	//}
+	//*dest = *src;
+
+	while (*dest++ = *src++) //* -> = -> ++（'='的运算结果是当前赋值过去的值，比如将'h'赋值过去的时候，结果是'h'的ASIIC码值）
+	{
+		;
+	}
+
+	return ret;
+}
+
+int main()
+{
+	char dest[20] = { 0 };
+	char src[] = "abcdef";
+	//my_strcpy(dest, src);
+	printf("%s\n", my_strcpy(dest,src)); //如果返回是void则不能链式访问
+	return 0;
+}
 
 //int main()
 //{

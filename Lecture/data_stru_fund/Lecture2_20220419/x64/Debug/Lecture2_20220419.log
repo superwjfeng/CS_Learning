@@ -1,5 +1,0 @@
-﻿  SeqList.c
-  test.c
-D:\C_Learning\Lecture\data_stru_fund\Lecture2_20220419\test.c(117,6): error C2374: 'pos': redefinition; multiple initialization
-D:\C_Learning\Lecture\data_stru_fund\Lecture2_20220419\test.c(106): message : see declaration of 'pos'
-  Generating Code...

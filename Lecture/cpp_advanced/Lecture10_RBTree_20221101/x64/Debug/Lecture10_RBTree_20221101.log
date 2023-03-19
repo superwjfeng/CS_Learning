@@ -1,0 +1,3 @@
+﻿  test.cpp
+D:\C_Learning\Lecture\cpp_advanced\Lecture10_RBTree_20221101\RBTree.h(154): warning C4715: “RBTree<int,int>::Insert”: 不是所有的控件路径都返回值
+  Lecture10_RBTree_20221101.vcxproj -> D:\C_Learning\Lecture\cpp_advanced\Lecture10_RBTree_20221101\x64\Debug\Lecture10_RBTree_20221101.exe

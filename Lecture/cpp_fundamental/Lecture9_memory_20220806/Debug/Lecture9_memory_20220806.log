@@ -1,0 +1,4 @@
+﻿  Test.cpp
+D:\C_Learning\Lecture\cpp_fundamental\Lecture9_memory_20220806\Test.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\C_Learning\Lecture\cpp_fundamental\Lecture9_memory_20220806\Test.cpp(55,10): warning C4129: 'm': unrecognized character escape sequence
+  Lecture9_memory_20220806.vcxproj -> D:\C_Learning\Lecture\cpp_fundamental\Lecture9_memory_20220806\Debug\Lecture9_memory_20220806.exe

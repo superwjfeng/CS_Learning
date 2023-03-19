@@ -1,6 +1,6 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(510,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Lecture10_20220517.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+﻿D:\VS\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Lecture10_20220517.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Heap.c
   test.c
-D:\C_Learning\Lecture\data_stru_fund\Lecture10_heap_20220517\test.c(170,12): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\C_Learning\Lecture\data_stru_fund\Lecture10_heap_20220517\test.c(172,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
   Generating Code...
   Lecture10_20220517.vcxproj -> D:\C_Learning\Lecture\data_stru_fund\Lecture10_heap_20220517\x64\Debug\Lecture10_heap_20220517.exe

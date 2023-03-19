@@ -1,6 +1,6 @@
 ﻿  test.c
-D:\C_Learning\Lecture\data_stru_fund\Lecture12_tree_20220522\test.c(86,3): warning C4033: 'TreeSize1' must return a value
-D:\C_Learning\Lecture\data_stru_fund\Lecture12_tree_20220522\test.c(103,3): warning C4033: 'TreeLeafSize1' must return a value
-D:\C_Learning\Lecture\data_stru_fund\Lecture12_tree_20220522\test.c(109): warning C4716: 'TreeLeafSize1': must return a value
-D:\C_Learning\Lecture\data_stru_fund\Lecture12_tree_20220522\test.c(91): warning C4716: 'TreeSize1': must return a value
+D:\C_Learning\Lecture\data_stru_fund\Lecture12_tree_20220522\test.c(88,3): warning C4033: “TreeSize1”必须返回值
+D:\C_Learning\Lecture\data_stru_fund\Lecture12_tree_20220522\test.c(105,3): warning C4033: “TreeLeafSize1”必须返回值
+D:\C_Learning\Lecture\data_stru_fund\Lecture12_tree_20220522\test.c(93): warning C4716: “TreeSize1”: 必须返回一个值
+D:\C_Learning\Lecture\data_stru_fund\Lecture12_tree_20220522\test.c(111): warning C4716: “TreeLeafSize1”: 必须返回一个值
   Lecture12_tree_20220522.vcxproj -> D:\C_Learning\Lecture\data_stru_fund\Lecture12_tree_20220522\x64\Debug\Lecture12_tree_20220522.exe

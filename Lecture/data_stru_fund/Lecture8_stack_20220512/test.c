@@ -15,7 +15,7 @@ void TestStack1()
 		StackPop(&st);
 	}
 	printf("\n");
-	StackDestory(&st);
+	StackDestroy(&st);
 }
 
 int main()

@@ -1,0 +1,5 @@
+﻿  test.cpp
+D:\C_Learning\Lecture\cpp_advanced\Lecture18_exception_20221121\test.cpp(143,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\C_Learning\Lecture\cpp_advanced\Lecture18_exception_20221121\test.cpp(152,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\C_Learning\Lecture\cpp_advanced\Lecture18_exception_20221121\test.cpp(182,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  Lecture18_exception_20221121.vcxproj -> D:\C_Learning\Lecture\cpp_advanced\Lecture18_exception_20221121\Debug\Lecture18_exception_20221121.exe

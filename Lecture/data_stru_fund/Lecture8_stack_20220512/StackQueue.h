@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 
 #include <stdio.h>
 #include <assert.h>
@@ -23,7 +23,7 @@ typedef struct Stack
 
 void StackInit(ST* ps);
 
-void StackDestory(ST* ps);
+void StackDestroy(ST* ps);
 
 void StackPush(ST* ps, STDataType x); //压栈
 

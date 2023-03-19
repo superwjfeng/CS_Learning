@@ -193,6 +193,9 @@ union Un
 
 int main()
 {
-	printf("%d\n", sizeof(union Un));
+	printf("%d\n", sizeof(struct S1));
+	printf("%d\n", sizeof(struct S2));
+	printf("%d\n", sizeof(struct S3));
+	printf("%d\n", sizeof(struct S4));
 	return 0;
 }

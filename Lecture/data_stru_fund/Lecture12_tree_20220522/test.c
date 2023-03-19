@@ -1,4 +1,4 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 #include <assert.h>
@@ -30,12 +30,14 @@ BTNode* CreatBinaryTree()
 	BTNode* node4 = BuyNode(4);
 	BTNode* node5 = BuyNode(5);
 	BTNode* node6 = BuyNode(6);
+//	BTNode* node7 = BuyNode(7);
 
 	node1->left = node2;
 	node1->right = node4;
 	node2->left = node3;
 	node4->left = node5;
 	node4->right = node6;
+//	node3->right = node7;
 	return node1;
 }
 
@@ -158,9 +160,9 @@ int TreeDepth(BTNode* root)
 	if (root == NULL)
 		return 0;
 
-	int leftDepth = TreeDepth(root->left);
-	int rightDepth = TreeDepth(root->right);
-	return leftDepth > rightDepth ? leftDepth + 1 : rightDepth + 1;
+	int leftDepth = TreeDepth(root->left) + 1;
+	int rightDepth = TreeDepth(root->right) + 1;
+	return leftDepth > rightDepth ? leftDepth : rightDepth;
 }
 
 void TreeDestroy(BTNode* root)
@@ -199,8 +201,11 @@ void LevelOrder(BTNode* root) //层序遍历，借助队列实现
 	QueueDestroy(&q);
 }
 
-//判断是否是完全二叉树
-int BinaryTreeComplete(BTNode* root)
+////判断是否是完全二叉树
+//int BinaryTreeComplete(BTNode* root)
+//{
+//
+//}
 
 int main()
 {
@@ -230,7 +235,7 @@ int main()
 	printf("Tree depth is: %d\n", TreeDepth(root));
 
 	LevelOrder(root);
-	TreeDestroy(root);
+	//TreeDestroy(root);
 	root = NULL;
 	return 0; 
 }

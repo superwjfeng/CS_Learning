@@ -1,4 +1,4 @@
-﻿#include "StackQueue.h"
+#include "StackQueue.h"
 
 void StackInit(ST* ps)
 {
@@ -8,7 +8,7 @@ void StackInit(ST* ps)
 	ps->capacity = 0;
 }
 
-void StackDestory(ST* ps)
+void StackDestroy(ST* ps)
 {
 	assert(ps);
 	free(ps->a);

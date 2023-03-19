@@ -4,7 +4,6 @@ void QueueInit(Queue* pq)
 {
 	assert(pq);
 	pq->head = pq->tail = NULL;
-
 }
 
 void QueueDestroy(Queue* pq)

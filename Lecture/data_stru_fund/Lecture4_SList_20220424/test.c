@@ -1,4 +1,4 @@
-﻿#include "SList.h"
+#include "SList.h"
 
 void TestSList1()
 {
@@ -27,7 +27,10 @@ void TestSList1()
 	SListPushBack(&plist, 6);
 	SListPushBack(&plist, 7);
 	SListPushBack(&plist, 8);
+	SListPushFront(&plist, 10);
 	SListPrint(plist);
+	//SLTNode* newPlist = SListPushFront(plist, 10);
+	//SListPrint(newPlist);
 }
 
 //void TestSList2_old()
@@ -108,33 +111,34 @@ void TestSList4()
 }
 
 SLTNode* removeElements(SLTNode* head, int val){
-     SLTNode* prev = NULL;
-     SLTNode* curr = head;
-     while (curr)
-     {
-         if (curr->data == val)
-         {
-             //头删
-             if (curr == head) //if (prev == null)
-             {
-                 head = curr->next;
-                 free(curr);
-                 curr = head;
-             }
-             else
-             {
-                 prev->next = curr->next;
-                 free(curr);
-                 curr = prev->next;
-             }
-         }
-         else
-         {
-             prev = curr;
-             curr = curr->next;
-         }
-     }
-     return head;
+	SLTNode* curr = head;
+	SLTNode* tail = head;
+	head = NULL;
+	while (curr)
+	{
+		if (curr->data == val)
+		{
+			struct ListNode* del = curr;
+			curr = curr->next;
+			free(del);
+		}
+		else
+		{// 尾插
+			// if (tail == NULL)
+			// {// 第一次插入
+			//     head = tail = curr;
+			// }
+			// else
+			// {
+			tail->next = curr;
+			tail = tail->next;
+			// }
+			curr = curr->next;
+		}
+	}
+	if (tail)
+		tail->next = NULL;
+	return head;
  }
 
 void TestSList5()
@@ -147,21 +151,34 @@ void TestSList5()
 	assert(n3);
 	SLTNode* n4 = (SLTNode*)malloc(sizeof(SLTNode));
 	assert(n4);
+	SLTNode* n5 = (SLTNode*)malloc(sizeof(SLTNode));
+	assert(n5);
+	SLTNode* n6 = (SLTNode*)malloc(sizeof(SLTNode));
+	assert(n6);
+	SLTNode* n7 = (SLTNode*)malloc(sizeof(SLTNode));
+	assert(n7);
 	n1->data = 1;
 	n2->data = 2;
-	n3->data = 3;
-	n4->data = 4;
+	n3->data = 6;
+	n4->data = 3;
+	n5->data = 4;
+	n6->data = 5;
+	n7->data = 6;
 
 	n1->next = n2;
 	n2->next = n3;
 	n3->next = n4;
-	n4->next = NULL;
+	n4->next = n5;
+	n5->next = n6;
+	n6->next = n7;
+	n7->next = NULL;
 
-	SLTNode* head = removeElements(n1, 7);
+	SLTNode* head = removeElements(n1, 6);
 }
 
 int main()
 {
+	//TestSList1();
 	TestSList5();
 	return 0;
 }

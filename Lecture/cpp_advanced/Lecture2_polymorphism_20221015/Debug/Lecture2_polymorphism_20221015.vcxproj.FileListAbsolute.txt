@@ -1,0 +1,2 @@
+D:\C_Learning\Lecture\cpp_fundamental\Lecture2_polymorphism_20221015\Debug\Lecture2_polymorphism_20221015.exe
+D:\C_Learning\Lecture\cpp_advanced\Lecture2_polymorphism_20221015\Debug\Lecture2_polymorphism_20221015.exe

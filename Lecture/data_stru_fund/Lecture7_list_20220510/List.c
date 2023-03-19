@@ -1,4 +1,4 @@
-﻿#include "List.h"
+#include "List.h"
 
 LTNode* BuyListNode(LTDataType x)
 {
@@ -52,7 +52,6 @@ void ListPushBack(LTNode* phead, LTDataType x)
 	//newnode->next = phead;
 	//phead->prev = newnode;
 	ListInsert(phead, x);
-
 }
 
 void ListPushFront(LTNode* phead, LTDataType x)
@@ -109,7 +108,6 @@ void ListInsert(LTNode* pos, LTDataType x)
 	newnode->prev = prev;
 	newnode->next = pos;
 	pos->prev = newnode;
-
 }
 
 void ListErase(LTNode* pos)

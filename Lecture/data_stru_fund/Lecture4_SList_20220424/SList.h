@@ -1,4 +1,4 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 
 #pragma once
 
@@ -21,6 +21,7 @@ SLTNode* BuySListNode(SLTDataType x);
 void SListPushBack(SLTNode** pphead, SLTDataType x);
 
 void SListPushFront(SLTNode** pphead, SLTDataType x);
+//SLTNode* SListPushFront(SLTNode* phead, SLTDataType x);
 
 void SListPopBack(SLTNode** pphead);
 
