@@ -1,0 +1,11 @@
+﻿  Source.c
+D:\C\Lecture2\Source.c(57,23): warning C4013: 'strlen' undefined; assuming extern returning int
+D:\C\Lecture2\Source.c(108,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\C\Lecture2\Source.c(108,9): message : consider using '%zd' in the format string
+D:\C\Lecture2\Source.c(109,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\C\Lecture2\Source.c(109,9): message : consider using '%zd' in the format string
+D:\C\Lecture2\Source.c(110,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\C\Lecture2\Source.c(110,9): message : consider using '%zd' in the format string
+D:\C\Lecture2\Source.c(113,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\C\Lecture2\Source.c(113,9): message : consider using '%zd' in the format string
+  Lecture2.vcxproj -> D:\C\Lecture2\x64\Debug\Lecture2.exe

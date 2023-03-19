@@ -1,0 +1,4 @@
+﻿  Source.c
+D:\C_Learning\Homework\Homework0310\Source.c(25,13): warning C4090: 'function': different 'const' qualifiers
+D:\C_Learning\Homework\Homework0310\Source.c(41,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Homework0310.vcxproj -> D:\C_Learning\Homework\Homework0310\x64\Debug\Homework0310.exe

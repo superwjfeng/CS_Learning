@@ -1,0 +1,3 @@
+﻿  Source.c
+D:\C_Learning\Lecture\C_advanced\Lecture6\Source.c(112,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'unsigned long'
+  Lecture6.vcxproj -> D:\C_Learning\Lecture\C_advanced\Lecture6\Debug\Lecture6.exe

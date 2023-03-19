@@ -1,0 +1,5 @@
+﻿  Source.c
+D:\C_Learning\Lecture\C_advanced\Lecture6\Source.c(112,34): warning C4311: 'type cast': pointer truncation from 'Test *' to 'unsigned long'
+D:\C_Learning\Lecture\C_advanced\Lecture6\Source.c(112,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'unsigned long'
+D:\C_Learning\Lecture\C_advanced\Lecture6\Source.c(112,9): warning C4313: 'printf': '%p' in format string conflicts with argument 1 of type 'unsigned long'
+  Lecture6.vcxproj -> D:\C_Learning\Lecture\C_advanced\Lecture6\x64\Debug\Lecture6.exe

@@ -1,0 +1,5 @@
+﻿  Stack.cpp
+  test.cpp
+D:\C_Learning\Lecture\cpp\Lecture2_20220709\test.cpp(134,11): error C2660: 'SLInit': function does not take 1 arguments
+D:\C_Learning\Lecture\cpp\Lecture2_20220709\Stack.h(24,6): message : see declaration of 'SLInit'
+  Generating Code...

@@ -1,0 +1,9 @@
+﻿  Sort.c
+  Test.c
+D:\C_Learning\Lecture\data_stru_fund\Lecture14_sorting_20220526\Test.c(5,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\C_Learning\Lecture\data_stru_fund\Lecture14_sorting_20220526\Test.c(26,1): warning C4047: 'initializing': 'int' differs in levels of indirection from 'clock_t (__cdecl *)(void)'
+D:\C_Learning\Lecture\data_stru_fund\Lecture14_sorting_20220526\Test.c(30,1): warning C4047: 'initializing': 'int' differs in levels of indirection from 'clock_t (__cdecl *)(void)'
+D:\C_Learning\Lecture\data_stru_fund\Lecture14_sorting_20220526\Test.c(34,1): warning C4047: 'initializing': 'int' differs in levels of indirection from 'clock_t (__cdecl *)(void)'
+D:\C_Learning\Lecture\data_stru_fund\Lecture14_sorting_20220526\Test.c(42,1): warning C4047: 'initializing': 'int' differs in levels of indirection from 'clock_t (__cdecl *)(void)'
+  Generating Code...
+  Lecture14_sorting_20220526.vcxproj -> D:\C_Learning\Lecture\data_stru_fund\Lecture14_sorting_20220526\Debug\Lecture14_sorting_20220526.exe

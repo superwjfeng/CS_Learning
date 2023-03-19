@@ -1,0 +1,10 @@
+﻿  Source.c
+D:\C_Learning\Lecture\C_advanced\Lecture7\Source.c(270,12): warning C4047: '=': 'char *' differs in levels of indirection from 'char'
+D:\C_Learning\Lecture\C_advanced\Lecture7\Source.c(263,1): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'char'
+D:\C_Learning\Lecture\C_advanced\Lecture7\Source.c(264,1): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'char'
+D:\C_Learning\Lecture\C_advanced\Lecture7\Source.c(266,1): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'char'
+D:\C_Learning\Lecture\C_advanced\Lecture7\Source.c(290,28): warning C4047: 'function': 'char' differs in levels of indirection from 'char [20]'
+D:\C_Learning\Lecture\C_advanced\Lecture7\Source.c(290,24): warning C4024: 'my_strstr': different types for formal and actual parameter 1
+D:\C_Learning\Lecture\C_advanced\Lecture7\Source.c(290,34): warning C4047: 'function': 'char' differs in levels of indirection from 'char [5]'
+D:\C_Learning\Lecture\C_advanced\Lecture7\Source.c(290,30): warning C4024: 'my_strstr': different types for formal and actual parameter 2
+  Lecture7.vcxproj -> D:\C_Learning\Lecture\C_advanced\Lecture7\x64\Debug\Lecture7.exe

@@ -1,0 +1,10 @@
+name:main, file:D:\C_Learning\Lecture\C_advanced\Lecture14\Source.c, line:102, date:Apr 10 2022, time:14:08:57, i=0
+name:main, file:D:\C_Learning\Lecture\C_advanced\Lecture14\Source.c, line:102, date:Apr 10 2022, time:14:08:57, i=1
+name:main, file:D:\C_Learning\Lecture\C_advanced\Lecture14\Source.c, line:102, date:Apr 10 2022, time:14:08:57, i=2
+name:main, file:D:\C_Learning\Lecture\C_advanced\Lecture14\Source.c, line:102, date:Apr 10 2022, time:14:08:57, i=3
+name:main, file:D:\C_Learning\Lecture\C_advanced\Lecture14\Source.c, line:102, date:Apr 10 2022, time:14:08:57, i=4
+name:main, file:D:\C_Learning\Lecture\C_advanced\Lecture14\Source.c, line:102, date:Apr 10 2022, time:14:08:57, i=5
+name:main, file:D:\C_Learning\Lecture\C_advanced\Lecture14\Source.c, line:102, date:Apr 10 2022, time:14:08:57, i=6
+name:main, file:D:\C_Learning\Lecture\C_advanced\Lecture14\Source.c, line:102, date:Apr 10 2022, time:14:08:57, i=7
+name:main, file:D:\C_Learning\Lecture\C_advanced\Lecture14\Source.c, line:102, date:Apr 10 2022, time:14:08:57, i=8
+name:main, file:D:\C_Learning\Lecture\C_advanced\Lecture14\Source.c, line:102, date:Apr 10 2022, time:14:08:57, i=9

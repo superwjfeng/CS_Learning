@@ -1,0 +1,3 @@
+﻿  Source.c
+D:\C_Learning\Homework\sprint_festival\day8\Source.c(51): warning C4715: 'majorityElement': not all control paths return a value
+  day8.vcxproj -> D:\C_Learning\Homework\sprint_festival\day8\x64\Debug\day8.exe

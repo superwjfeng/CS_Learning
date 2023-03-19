@@ -1,0 +1,22 @@
+﻿  test.cpp
+D:\C_Learning\Lecture\cpp_fundamental\Lecture17_list_20220917\list.h(456,61): error C2440: “初始化”: 无法从“wjf::__reverse_iterator<wjf::_list_iterator<T,T &,T *>,T &,T *>”转换为“wjf::__reverse_iterator<wjf::_list_iterator<T,const T &,const T *>,const T &,const T *>”
+          with
+          [
+              T=int
+          ]
+D:\C_Learning\Lecture\cpp_fundamental\Lecture17_list_20220917\list.h(456,47): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+D:\C_Learning\Lecture\cpp_fundamental\Lecture17_list_20220917\list.h(457,33): error C2679: 二元“!=”: 没有找到接受“wjf::__reverse_iterator<wjf::_list_iterator<T,T &,T *>,T &,T *>”类型的右操作数的运算符(或没有可接受的转换)
+          with
+          [
+              T=int
+          ]
+D:\C_Learning\Lecture\cpp_fundamental\Lecture17_list_20220917\reverse_iterator.h(58,8): message : 可能是“bool wjf::__reverse_iterator<wjf::_list_iterator<T,const T &,const T *>,const T &,const T *>::operator !=(const wjf::__reverse_iterator<wjf::_list_iterator<T,const T &,const T *>,const T &,const T *> &)”
+          with
+          [
+              T=int
+          ]
+D:\C_Learning\Lecture\cpp_fundamental\Lecture17_list_20220917\list.h(457,33): message : 尝试匹配参数列表“(wjf::__reverse_iterator<wjf::_list_iterator<T,const T &,const T *>,const T &,const T *>, wjf::__reverse_iterator<wjf::_list_iterator<T,T &,T *>,T &,T *>)”时
+          with
+          [
+              T=int
+          ]

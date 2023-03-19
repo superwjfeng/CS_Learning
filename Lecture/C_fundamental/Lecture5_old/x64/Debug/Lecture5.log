@@ -1,0 +1,6 @@
+﻿  Source.c
+D:\C\Lecture5\Source.c(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\C\Lecture5\Source.c(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\C\Lecture5\Source.c(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\C\Lecture5\Source.c(132,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Lecture5.vcxproj -> D:\C\Lecture5\x64\Debug\Lecture5.exe

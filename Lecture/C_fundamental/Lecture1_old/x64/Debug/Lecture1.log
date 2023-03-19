@@ -1,0 +1,17 @@
+﻿  Source.c
+D:\C\Lecture1\Source.c(34,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\C\Lecture1\Source.c(34,9): message : consider using '%zd' in the format string
+D:\C\Lecture1\Source.c(35,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\C\Lecture1\Source.c(35,9): message : consider using '%zd' in the format string
+D:\C\Lecture1\Source.c(36,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\C\Lecture1\Source.c(36,9): message : consider using '%zd' in the format string
+D:\C\Lecture1\Source.c(37,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\C\Lecture1\Source.c(37,9): message : consider using '%zd' in the format string
+D:\C\Lecture1\Source.c(38,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\C\Lecture1\Source.c(38,9): message : consider using '%zd' in the format string
+D:\C\Lecture1\Source.c(39,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\C\Lecture1\Source.c(39,9): message : consider using '%zd' in the format string
+D:\C\Lecture1\Source.c(40,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\C\Lecture1\Source.c(40,9): message : consider using '%zd' in the format string
+D:\C\Lecture1\Source.c(65,21): error C2205: 'global_test': cannot initialize extern variables with block scope
+D:\C\Lecture1\Source.c(42,1): warning C4305: 'initializing': truncation from 'double' to 'float'

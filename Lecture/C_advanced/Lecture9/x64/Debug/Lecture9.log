@@ -1,0 +1,10 @@
+﻿  Source.c
+D:\C_Learning\Lecture\C_advanced\Lecture9\Source.c(196,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\C_Learning\Lecture\C_advanced\Lecture9\Source.c(196,9): message : consider using '%zd' in the format string
+D:\C_Learning\Lecture\C_advanced\Lecture9\Source.c(197,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\C_Learning\Lecture\C_advanced\Lecture9\Source.c(197,9): message : consider using '%zd' in the format string
+D:\C_Learning\Lecture\C_advanced\Lecture9\Source.c(198,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\C_Learning\Lecture\C_advanced\Lecture9\Source.c(198,9): message : consider using '%zd' in the format string
+D:\C_Learning\Lecture\C_advanced\Lecture9\Source.c(199,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+D:\C_Learning\Lecture\C_advanced\Lecture9\Source.c(199,9): message : consider using '%zd' in the format string
+  Lecture9.vcxproj -> D:\C_Learning\Lecture\C_advanced\Lecture9\x64\Debug\Lecture9.exe

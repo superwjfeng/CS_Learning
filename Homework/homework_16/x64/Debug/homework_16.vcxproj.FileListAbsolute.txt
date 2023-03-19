@@ -1,0 +1,2 @@
+D:\C_Learning\Lecture\C_advanced\homework_16\x64\Debug\homework_16.exe
+D:\C_Learning\Homework\Homework_16\x64\Debug\Homework_16.exe
