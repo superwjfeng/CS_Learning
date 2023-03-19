@@ -1,0 +1,6 @@
+DEBUG | 1674308504 | WJFeng | socket: Success, 4
+DEBUG | 1674308504 | WJFeng | bind: Success, 4
+DEBUG | 1674308504 | WJFeng | listen: Success, 4
+加锁成功...
+解锁成功....
+DEBUG | 1674308504 | WJFeng | thread pool start success, thread num: 5

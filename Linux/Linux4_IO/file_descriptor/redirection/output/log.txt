@@ -1,0 +1,8 @@
+fd: 1
+fd: 1
+fd: 1
+fd: 1
+fd: 1
+fd: 1
+hello fprintf
+hello fwrite
