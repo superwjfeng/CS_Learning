@@ -38,8 +38,11 @@ public:
         {
             exit(1);
         }
+        int opt = 1;
+        setsockopt(listenSock, SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT, &opt, sizeof(opt));
         return listenSock;
     }
+
     //2. bind
     static void Bind(int socket, uint16_t port)
     {
@@ -55,6 +58,7 @@ public:
             exit(2);
         }
     }
+
     static void Listen(int socket)
     {
         //3. 监听socket，tcp是面向连接的。所谓面向的意思就是在做任何事情之前先干什么
