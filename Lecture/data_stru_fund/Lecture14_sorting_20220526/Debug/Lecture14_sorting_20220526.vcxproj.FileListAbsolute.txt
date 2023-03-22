@@ -1,2 +1,0 @@
-C:\Users\Weijian Feng\source\repos\Lecture14_sorting_20220526\Debug\Lecture14_sorting_20220526.exe
-D:\C_Learning\Lecture\data_stru_fund\Lecture14_sorting_20220526\Debug\Lecture14_sorting_20220526.exe

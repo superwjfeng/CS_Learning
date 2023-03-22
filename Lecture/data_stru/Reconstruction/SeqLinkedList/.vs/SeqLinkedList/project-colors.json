@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ce66f002-9575-4ea8-a891-d5da1cacac3e": {
+      "ProjectGuid": "ce66f002-9575-4ea8-a891-d5da1cacac3e",
+      "DisplayName": "SeqLinkedList",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

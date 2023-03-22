@@ -1,0 +1,3 @@
+﻿  test.c
+D:\C_Learning\Lecture\data_stru_fund\Lecture4_SList_20220424\test.c(121,2): warning C4133: “初始化”: 从“SLTNode *”到“ListNode *”的类型不兼容
+  Lecture4_20220424.vcxproj -> D:\C_Learning\Lecture\data_stru_fund\Lecture4_SList_20220424\x64\Debug\Lecture4_20220424.exe

@@ -1,0 +1,16 @@
+﻿  SeqList.c
+D:\C_Learning\Lecture\data_stru_fund\Reconstruction\SeqList\SeqList.h(31,6): error C2182: 'SL': illegal use of type 'void'
+D:\C_Learning\Lecture\data_stru_fund\Reconstruction\SeqList\SeqList.h(31,6): error C2371: 'SL': redefinition; different basic types
+D:\C_Learning\Lecture\data_stru_fund\Reconstruction\SeqList\SeqList.h(15): message : see declaration of 'SL'
+D:\C_Learning\Lecture\data_stru_fund\Reconstruction\SeqList\SeqList.c(3,6): error C2054: expected '(' to follow 'SL'
+D:\C_Learning\Lecture\data_stru_fund\Reconstruction\SeqList\SeqList.c(4,1): error C2082: redefinition of formal parameter 'SLInit'
+D:\C_Learning\Lecture\data_stru_fund\Reconstruction\SeqList\SeqList.c(4,1): error C2143: syntax error: missing ';' before '{'
+D:\C_Learning\Lecture\data_stru_fund\Reconstruction\SeqList\SeqList.c(44,1): fatal error C1004: unexpected end-of-file found
+  test.c
+D:\C_Learning\Lecture\data_stru_fund\Reconstruction\SeqList\SeqList.h(31,6): error C2182: 'SL': illegal use of type 'void'
+D:\C_Learning\Lecture\data_stru_fund\Reconstruction\SeqList\SeqList.h(31,6): error C2371: 'SL': redefinition; different basic types
+D:\C_Learning\Lecture\data_stru_fund\Reconstruction\SeqList\SeqList.h(15): message : see declaration of 'SL'
+D:\C_Learning\Lecture\data_stru_fund\Reconstruction\SeqList\test.c(3,6): error C2054: expected '(' to follow 'SL'
+D:\C_Learning\Lecture\data_stru_fund\Reconstruction\SeqList\test.c(4,1): error C2085: 'SeqListTest1': not in formal parameter list
+D:\C_Learning\Lecture\data_stru_fund\Reconstruction\SeqList\test.c(4,1): error C2143: syntax error: missing ';' before '{'
+  Generating Code...

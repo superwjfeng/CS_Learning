@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "34ea1f01-a245-4dc2-9e33-69f373cda2c4": {
+      "ProjectGuid": "34ea1f01-a245-4dc2-9e33-69f373cda2c4",
+      "DisplayName": "Lecture4_20220424",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
