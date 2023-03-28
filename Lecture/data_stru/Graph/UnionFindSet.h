@@ -1,4 +1,6 @@
 #pragma once
+
+#pragma once
 #include <vector>
 #include <map>
 
@@ -34,22 +36,33 @@ public:
 		int root2 = FindRoot(x2);
 		if (root1 == root2) //已经在一个集合里了，没必要归并
 			return;
-
-		if (root1 > root2)
+		
+		//数据量小的往数量大的集合合并，默认root1大
+		if (abs(_ufs[root1]) < abs(_ufs[root2]))
 			std::swap(root1, root2);
 
 		_ufs[root1] += _ufs[root2];
-		_ufs[root2] = root1;
+		_ufs[root2] = root1; //root2变成了root1的子集
 	}
 
 	int FindRoot(int x)
 	{
-		int parent = x;
-		while (_ufs[parent] >= 0)
+		int root = x;
+		while (_ufs[root] >= 0)
 		{
-			parent = _ufs[parent];
+			root = _ufs[root];
 		}
-		return parent;
+
+		//路径压缩
+		while (_ufs[x] >= 0)
+		{
+			int parent = _ufs[x];
+			_ufs[x] = root;
+
+			x = parent; //沿着路径往上
+		}
+
+		return root;
 	}
 
 	bool InSet(int x1, int x2)
@@ -71,3 +84,4 @@ public:
 private:
 	std::vector<int> _ufs;
 };
+

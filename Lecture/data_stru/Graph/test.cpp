@@ -1,11 +1,13 @@
-#include <iostream>
-#include "UnionFindSet.h"
-
-using namespace std;
+#include "Graph.h"
 
 int main()
 {
-	//string a[] = { "张三", "李四", "王五", "赵六" };
-	//UnionFindSet<string> ufs(a, 4);
+	//matrix::TestGraph1();
+	//link_table::TestGraph1();
+	//matrix::TestBDFS();
+	//matrix::TestKruskal();
+	//matrix::TestPrim();
+	//matrix::TestGraphDijkstra();
+	matrix::TestGraphBellmannFord();
 	return 0;
 }
