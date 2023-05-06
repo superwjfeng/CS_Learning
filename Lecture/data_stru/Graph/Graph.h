@@ -5,7 +5,7 @@
 #include <set>
 #include <map>
 #include <functional>
-#include <limits>
+#include <limits.h>
 #include <cassert>
 
 #include "UnionFindSet.h"
