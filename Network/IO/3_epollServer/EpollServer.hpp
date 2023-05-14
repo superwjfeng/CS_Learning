@@ -74,7 +74,7 @@ namespace wjfeng
             }
             else
             {
-                //一定要现在epoll中去掉sock，然后再close文件
+                //一定要先在epoll中去掉sock，然后再close文件
                 bool res = Epoll::CtlEpoll(_epfd, EPOLL_CTL_DEL, sock, 0);
                 assert(res);
                 (void)res;
