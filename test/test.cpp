@@ -483,8 +483,15 @@ using namespace std;
 //	return 0;
 //}
 
+void test(int x) {
+	std::cout << "hello world" << std::endl;
+}
+void test(const int x) {
+	std::cout << "hello world" << std::endl;
+}
+
+
 int main() {
-	char buff[128];
-	while (scanf("%s", buff) != EOF) {
-	}
+	std::cout << "hello world" << std::endl;
+	return 0;
 }

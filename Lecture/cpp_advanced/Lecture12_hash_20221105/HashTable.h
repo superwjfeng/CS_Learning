@@ -204,6 +204,8 @@ namespace HashBucket {
 	template<class K, class T, class Hash, class KeyOfT>
 	class HashTable; //前置声明
 
+	//封装迭代器给UnorderedMap和UnorderedSet用
+	//泛型参数KeyOfT是为了分别是实例化为UnorderedMap还是UnorderedSet
 	template<class K, class T, class Hash, class KeyOfT>
 	struct __HashIterator {
 		typedef HashNode<T> Node; 
