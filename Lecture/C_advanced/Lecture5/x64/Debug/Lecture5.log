@@ -1,4 +1,0 @@
-﻿  Source.c
-D:\C_Learning\Lecture\C_advanced\Lecture5\Source.c(219,15): warning C4133: 'function': incompatible types - from 'Stu [3]' to 'int *'
-D:\C_Learning\Lecture\C_advanced\Lecture5\Source.c(265,15): warning C4133: 'function': incompatible types - from 'Stu [3]' to 'int *'
-  Lecture5.vcxproj -> D:\C_Learning\Lecture\C_advanced\Lecture5\x64\Debug\Lecture5.exe

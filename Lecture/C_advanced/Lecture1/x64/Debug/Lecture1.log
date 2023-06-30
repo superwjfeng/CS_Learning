@@ -1,3 +1,0 @@
-﻿  Source.c
-D:\C_Learning\Lecture\C_advanced\Lecture1\Source.c(79,21): warning C4013: 'strlen' undefined; assuming extern returning int
-  Lecture1.vcxproj -> D:\C_Learning\Lecture\C_advanced\Lecture1\x64\Debug\Lecture1.exe

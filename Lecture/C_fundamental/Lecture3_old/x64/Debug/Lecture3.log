@@ -1,7 +1,0 @@
-﻿  Source.c
-D:\C\Lecture3\Source.c(85,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
-D:\C\Lecture3\Source.c(85,9): message : consider using '%zd' in the format string
-D:\C\Lecture3\Source.c(89,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
-D:\C\Lecture3\Source.c(89,9): message : consider using '%zd' in the format string
-D:\C\Lecture3\Source.c(88,1): warning C4133: 'initializing': incompatible types - from 'int *' to 'double *'
-  Lecture3.vcxproj -> D:\C\Lecture3\x64\Debug\Lecture3.exe

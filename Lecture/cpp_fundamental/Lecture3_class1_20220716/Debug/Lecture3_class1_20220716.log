@@ -1,4 +1,0 @@
-﻿  test.cpp
-D:\C_Learning\Lecture\cpp_fundamental\Lecture3_class1_20220716\test.cpp(231,4): error C2248: 'Stack::a': cannot access private member declared in class 'Stack'
-D:\C_Learning\Lecture\cpp_fundamental\Lecture3_class1_20220716\test.cpp(184): message : see declaration of 'Stack::a'
-D:\C_Learning\Lecture\cpp_fundamental\Lecture3_class1_20220716\test.cpp(164): message : see declaration of 'Stack'

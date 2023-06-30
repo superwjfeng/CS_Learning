@@ -1,4 +1,0 @@
-﻿  Test.cpp
-D:\C_Learning\Lecture\cpp_fundamental\Lecture8_class5_20220805\Test.cpp(96,12): error C2248: 'A::B::_b': cannot access private member declared in class 'A::B'
-D:\C_Learning\Lecture\cpp_fundamental\Lecture8_class5_20220805\Test.cpp(92): message : see declaration of 'A::B::_b'
-D:\C_Learning\Lecture\cpp_fundamental\Lecture8_class5_20220805\Test.cpp(84): message : see declaration of 'A::B'

@@ -1,1 +1,0 @@
-D:\C_Learning\Lecture\cpp_fundamental\Lecture10_STL_string_20220808\Debug\Lecture10_STL_string_20220808.exe
