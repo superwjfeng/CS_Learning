@@ -1,0 +1,10 @@
+# 排除以.sln、.vcxproj、.vcxproj.filters、.vcsproj.user为结尾的文件
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcsproj.user
+
+# 排除Debug文件夹和.vs文件夹
+Debug/
+.vs/
+x64/

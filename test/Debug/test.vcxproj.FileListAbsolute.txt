@@ -1,1 +1,2 @@
 D:\C_Learning\test\Debug\test.exe
+D:\CS_Learning\test\Debug\test.exe

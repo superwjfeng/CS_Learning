@@ -1,4 +1,0 @@
-﻿  Source.c
-D:\C_Learning\Homework\Homework0315\Source.c(19,28): warning C4311: 'type cast': pointer truncation from 'int [4]' to 'int'
-D:\C_Learning\Homework\Homework0315\Source.c(19,32): warning C4312: 'type cast': conversion from 'int' to 'int *' of greater size
-  Homework0315.vcxproj -> D:\C_Learning\Homework\Homework0315\x64\Debug\Homework0315.exe
