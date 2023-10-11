@@ -2,7 +2,7 @@
 *.sln
 *.vcxproj
 *.vcxproj.filters
-*.vcsproj.user
+*.vcxproj.user
 
 # 排除Debug文件夹和.vs文件夹
 Debug/
