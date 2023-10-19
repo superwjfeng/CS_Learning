@@ -1,3 +1,2 @@
 ﻿  test.cpp
-D:\CS_Learning\test\test.cpp(47,3): warning C4551: 缺少参数列表的函数调用
   test.vcxproj -> D:\CS_Learning\test\Debug\test.exe

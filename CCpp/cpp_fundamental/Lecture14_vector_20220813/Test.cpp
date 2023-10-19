@@ -181,6 +181,10 @@ namespace std
 		string digits("23");
 		vector<string> ret = letterCombinations(digits);
 	}
+
+	void test_vector8() {
+		vector<bool> v = { true, false, true };
+	}
 }
 
 #include "vector.h"
@@ -195,6 +199,7 @@ int main()
 //	printf("%zd\n", sizeof(wjf::vector<int>));
 	//std::test_vector6();
 	//std::test_vector7();
+	std::test_vector8();
 	
 	//wjf::test_vector1();
 	//wjf::test_vector2();
@@ -206,7 +211,8 @@ int main()
 	//wjf::test_vector8();
 	//wjf::test_vector9();
 	//wjf::test_vector10();
-	wjf::test_vector11();
+	//wjf::test_vector11();
+	
 
 	return 0;
 }

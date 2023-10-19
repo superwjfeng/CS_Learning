@@ -1,53 +1,67 @@
 #include <iostream>
+#include <string>
 using namespace std;
-// void fun(int a) {}
-// void fun(const int a) {}
 
-template <typename T>
-void f(T param)
-{
-  std::cout << param << std::endl;
-}
-void func(int, int) {}
-int func2(int) { return 10; }
-// int (*func2ptr)(int) = func2;
+//const std::string &shorterString(const std::string &s1, const std::string &s2) {
+//  return s1.size() <= s2.size() ? s1 : s2;
+//}
+//std::string &shorterString(std::string &s1, std::string &s2) {
+//  std::cout << "non-const" << std::endl;
+//  auto &r = shorterString(const_cast<const std::string &>(s1), // 给参数添加const
+//    const_cast<const std::string &>(s2));
+//  return const_cast<std::string &>(r);
+//}
+//
+//int main() {
+//  std::string s1{ "hello" };
+//  std::string s2{ "hello2" };
+//
+//  std::string& s3 = shorterString(s1, s2);
+//  s3[1] = '2';
+//  std::cout << s3 << std::endl; // h2llo
+//  std::cout << s1 << std::endl; // h2llo
+//
+//
+//  int i = 2;
+//  auto func = [](int i) {
+//    if (i > 0) return i;
+//    else return -i;
+//  };
+//
+//  std::cout << func(i) << std::endl;
+//
+//  return 0;
+//}
 
-using F = int(int);
-// typedef int F(int);
+class A {
+public:
+  virtual void print() {
+    cout << "A" << endl;
+  }
+};
 
-int main()
-{
-  // const F *aaa = func2;
-  // F *const bbb = func2;
-  // int (*const func2p)(int) = func2;
-  // int (&func2r)(int) = func2;
-  // const F &ccc = func2;
+class B : public A {
+public:
+  void print() {
+    cout << "B" << endl;
+  }
+};
 
-  int a = 10;
-  f(a);
-  int *aptr = &a;
-  int &aref = a;
-  int &&arref = std::move(a);
+class C : public A {
+public:
+  void print() {
+    cout << "C" << endl;
+  }
+};
 
-  const int ca = 20;
-  const int *captr = &ca;
-  f(captr);
-  const int &caref = ca;
-  const int &&carref = std::move(ca);
-  int *const acptr = &a;
-  const int *const cacptr = &a;
-  10;
 
-  char mmm = 'a';
-  f(&mmm);
-  int array[2] = { 0, 1 };
-  "hello world";
-  int(*arrayptr)[2] = &array;
-  int(&arrayref)[2] = array;
+int main() {
+  B b;
+  A *a = &b;
+  a->print();
 
-  func;
-  void (*funcptr)(int, int) = func;
-  void(&funcref)(int, int) = func;
+  int c = 2;
+  const int d = 3;
 
   return 0;
 }

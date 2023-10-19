@@ -561,4 +561,8 @@ namespace wjf
     }
     cout << endl;
   }
+
+  void test_vector12() {
+    vector<bool> v{ true, false, true };
+  }
 }
