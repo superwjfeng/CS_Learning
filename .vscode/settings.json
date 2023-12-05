@@ -1,0 +1,20 @@
+{
+  "files.associations": {
+    "array": "cpp",
+    "*.tcc": "cpp",
+    "bitset": "cpp",
+    "functional": "cpp",
+    "memory": "cpp",
+    "tuple": "cpp",
+    "fstream": "cpp",
+    "istream": "cpp",
+    "limits": "cpp",
+    "mutex": "cpp",
+    "ostream": "cpp",
+    "numeric": "cpp",
+    "sstream": "cpp",
+    "stop_token": "cpp",
+    "streambuf": "cpp",
+    "utility": "cpp"
+  }
+}
