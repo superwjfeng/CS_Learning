@@ -15,6 +15,13 @@
     "sstream": "cpp",
     "stop_token": "cpp",
     "streambuf": "cpp",
-    "utility": "cpp"
-  }
+    "utility": "cpp",
+    "iostream": "cpp",
+    "cstdarg": "cpp",
+    "cstdio": "cpp",
+    "types.h": "c",
+    "random": "c",
+    "socket.h": "c"
+  },
+  "cmake.options.statusBarVisibility": "visible"
 }

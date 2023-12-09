@@ -1,4 +1,0 @@
-﻿  contact.c
-D:\C_Learning\Project\Contact\contact.c(201,31): warning C4311: 'type cast': pointer truncation from 'char [30]' to 'int'
-test.obj : error LNK2001: unresolved external symbol x
-D:\C_Learning\Project\Contact\x64\Debug\Contact.exe : fatal error LNK1120: 1 unresolved externals
