@@ -15,6 +15,7 @@ class Mutex {
   pthread_mutex_t _lock;
 };
 
+// RAII 的加锁风格
 class LockGuard {
  public:
   LockGuard(Mutex *mutex) : _mutex(mutex) {

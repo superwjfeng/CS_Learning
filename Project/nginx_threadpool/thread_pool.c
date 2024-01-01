@@ -156,6 +156,7 @@ int_t thread_task_post(thread_pool_t *tp, thread_task_t *task) {
   return OK;
 }
 
+/* thread_pool_cycle 就是routine，实际进行的任务 */
 static void *thread_pool_cycle(void *data) {
   thread_pool_t *tp = data;
 
@@ -165,6 +166,7 @@ static void *thread_pool_cycle(void *data) {
   if (debug) fprintf(stderr, "thread in pool \"%s\" started\n", tp->name);
 
   for (;;) {
+    // lock queue
     if (thread_mutex_lock(&tp->mtx) != OK) {
       return NULL;
     }
@@ -172,6 +174,7 @@ static void *thread_pool_cycle(void *data) {
     tp->waiting--;
 
     while (tp->queue.first == NULL) {
+      // block thread until signal comes
       if (thread_cond_wait(&tp->cond, &tp->mtx) != OK) {
         (void)thread_mutex_unlock(&tp->mtx);
         return NULL;

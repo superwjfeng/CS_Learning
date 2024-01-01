@@ -21,7 +21,8 @@
     "cstdio": "cpp",
     "types.h": "c",
     "random": "c",
-    "socket.h": "c"
+    "socket.h": "c",
+    "typeinfo": "c"
   },
   "cmake.options.statusBarVisibility": "visible"
 }

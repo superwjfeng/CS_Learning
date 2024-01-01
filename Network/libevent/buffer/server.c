@@ -36,7 +36,7 @@ int main(int argc, char **argv) {
 
   base = event_base_new();
 
-  //添加监听客户端请求连接事件
+  // 添加监听客户端请求连接事件
   struct event *ev_listen =
       event_new(base, listener, EV_READ | EV_PERSIST, accept_connection, base);
   event_add(ev_listen, NULL);
@@ -101,7 +101,7 @@ void event_cb(struct bufferevent *bev, short event, void *arg) {
   else if (event & BEV_EVENT_ERROR)
     printf("some other error\n");
 
-  //这将自动close套接字和free读写缓冲区
+  // 这将自动close套接字和free读写缓冲区
   bufferevent_free(bev);
   free(stat);
 }
@@ -114,9 +114,9 @@ int tcp_server_init(int port, int listen_num) {
   listener = socket(AF_INET, SOCK_STREAM, 0);
   if (listener == -1) return -1;
 
-  //允许多次绑定同一个地址。要用在socket和bind之间
-  //等同于 int opt = 1;
-  // setsockopt(sock, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt));
+  // 允许多次绑定同一个地址。要用在socket和bind之间
+  // 等同于 int opt = 1;
+  //  setsockopt(sock, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt));
 
   evutil_make_listen_socket_reuseable(listener);
 
@@ -129,7 +129,7 @@ int tcp_server_init(int port, int listen_num) {
 
   if (listen(listener, listen_num) < 0) goto error;
 
-  //跨平台统一接口，将套接字设置为非阻塞状态
+  // 跨平台统一接口，将套接字设置为非阻塞状态
   evutil_make_socket_nonblocking(listener);
 
   return listener;

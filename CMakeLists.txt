@@ -10,3 +10,5 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/lib)
 link_directories(/usr/local/include)
 
 add_subdirectory(Network)
+add_subdirectory(Linux)
+# add_subdirectory(DesignPattern/20.ObserverPattern)
