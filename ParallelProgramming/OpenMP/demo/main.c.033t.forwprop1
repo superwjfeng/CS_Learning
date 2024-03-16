@@ -1,0 +1,59 @@
+
+;; Function printf (printf, funcdef_no=15, decl_uid=964, cgraph_uid=16, symbol_order=15)
+
+__attribute__((artificial, gnu_inline, always_inline))
+__attribute__((nonnull (1), format (printf, 1, 2)))
+int printf (const char * restrict __fmt)
+{
+  int _4;
+
+  <bb 2> :
+  _4 = __printf_chk (1, __fmt_2(D), __builtin_va_arg_pack ());
+  return _4;
+
+}
+
+
+
+;; Function main._omp_fn.0 (main._omp_fn.0, funcdef_no=24, decl_uid=2960, cgraph_uid=25, symbol_order=24)
+
+void main._omp_fn.0 (struct .omp_data_s.0 & restrict .omp_data_i)
+{
+  int data;
+  int two;
+  int _5;
+  int _7;
+
+  <bb 2> :
+  two_3 = .omp_data_i_2(D)->two;
+  data_4 = .omp_data_i_2(D)->data;
+  _5 = __builtin_omp_get_thread_num ();
+  _7 = __printf_chk (1, "tid = %d data = %d two = %d\n", _5, data_4, two_3);
+  return;
+
+}
+
+
+
+;; Function main (main, funcdef_no=23, decl_uid=2952, cgraph_uid=24, symbol_order=23)
+
+int main ()
+{
+  int two;
+  int data;
+  struct .omp_data_s.0 .omp_data_o.1;
+  int _11;
+  int _12;
+
+  <bb 2> :
+  _12 = __printf_chk (1, "start\n");
+  .omp_data_o.1.two = -100;
+  .omp_data_o.1.data = 100;
+  __builtin_GOMP_parallel (main._omp_fn.0, &.omp_data_o.1, 4, 0);
+  .omp_data_o.1 ={v} {CLOBBER};
+  _11 = __printf_chk (1, "finished\n");
+  return 0;
+
+}
+
+

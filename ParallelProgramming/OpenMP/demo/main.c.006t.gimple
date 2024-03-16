@@ -1,0 +1,38 @@
+int main ()
+{
+  int D.2958;
+
+  {
+    int data;
+    int two;
+
+    data = 100;
+    two = -100;
+    printf ("start\n");
+    #pragma omp parallel shared(two) shared(data) default(none) num_threads(4)
+      {
+        int D.2957;
+
+        D.2957 = omp_get_thread_num ();
+        printf ("tid = %d data = %d two = %d\n", D.2957, data, two);
+      }
+    printf ("finished\n");
+    D.2958 = 0;
+    return D.2958;
+  }
+  D.2958 = 0;
+  return D.2958;
+}
+
+
+__attribute__((artificial, gnu_inline, always_inline))
+__attribute__((nonnull (1), format (printf, 1, 2)))
+int printf (const char * restrict __fmt)
+{
+  int D.2972;
+
+  D.2972 = __printf_chk (1, __fmt, __builtin_va_arg_pack ());
+  return D.2972;
+}
+
+

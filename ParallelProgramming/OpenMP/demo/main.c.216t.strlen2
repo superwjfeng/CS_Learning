@@ -1,0 +1,71 @@
+
+;; Function main._omp_fn.0 (main._omp_fn.0, funcdef_no=24, decl_uid=2960, cgraph_uid=25, symbol_order=24)
+
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2
+;; 2 succs { 1 }
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:112: __printf_chk: objsize = 9223372036854775807, fmtstr = "tid = %d data = %d two = %d
+"
+  Directive 1 at offset 0: "tid = ", length = 6
+    Result: 6, 6, 6, 6 (6, 6, 6, 6)
+  Directive 2 at offset 6: "%d"
+    Result: 1, 1, 11, 11 (7, 7, 17, 17)
+  Directive 3 at offset 8: " data = ", length = 8
+    Result: 8, 8, 8, 8 (15, 15, 25, 25)
+  Directive 4 at offset 16: "%d"
+    Result: 1, 1, 11, 11 (16, 16, 36, 36)
+  Directive 5 at offset 18: " two = ", length = 7
+    Result: 7, 7, 7, 7 (23, 23, 43, 43)
+  Directive 6 at offset 25: "%d"
+    Result: 1, 1, 11, 11 (24, 24, 54, 54)
+  Directive 7 at offset 27: "
+", length = 1
+    Result: 1, 1, 1, 1 (25, 25, 55, 55)
+  Directive 8 at offset 28: "", length = 1
+
+void main._omp_fn.0 (struct .omp_data_s.0 & restrict .omp_data_i)
+{
+  int data;
+  int two;
+  int _5;
+
+  <bb 2> [local count: 1073741824]:
+  two_3 = .omp_data_i_2(D)->two;
+  data_4 = .omp_data_i_2(D)->data;
+  _5 = __builtin_omp_get_thread_num ();
+  __printf_chk (1, "tid = %d data = %d two = %d\n", _5, data_4, two_3);
+  return;
+
+}
+
+
+
+;; Function main (main, funcdef_no=23, decl_uid=2952, cgraph_uid=24, symbol_order=23) (executed once)
+
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2
+;; 2 succs { 1 }
+int main ()
+{
+  struct .omp_data_s.0 .omp_data_o.1;
+
+  <bb 2> [local count: 1073741824]:
+  __builtin_puts (&"start"[0]);
+  .omp_data_o.1.two = -100;
+  .omp_data_o.1.data = 100;
+  __builtin_GOMP_parallel (main._omp_fn.0, &.omp_data_o.1, 4, 0);
+  .omp_data_o.1 ={v} {CLOBBER};
+  __builtin_puts (&"finished"[0]);
+  return 0;
+
+}
+
+

@@ -18,12 +18,13 @@ class ThreadPool {
     Task* t = nullptr;
 
     while (true) {
+      pthread_mutex_lock(tp->mtx_);
       while (tp->task_queue_->empty()) {
-        pthread_mutex_lock(tp->mtx_);
         pthread_cond_wait(tp->cond_, tp->mtx_);
-        t = tp->task_queue_->front();
-        tp->task_queue_->pop();
       }
+      t = tp->task_queue_->front();
+      tp->task_queue_->pop();
+      pthread_mutex_unlock(tp->mtx_);
 
       t->callback();
     }
@@ -36,6 +37,7 @@ class ThreadPool {
     pthread_mutex_lock(mtx_);
     task_queue_->push(t);
     pthread_cond_signal(cond_);
+    pthread_mutex_unlock(mtx_);
   }
 
   static ThreadPool* getInstance() {
